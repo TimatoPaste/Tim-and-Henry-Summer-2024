@@ -5,6 +5,7 @@ scope = "user-library-read"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
+        #rotated. check dev spotify for new
         client_id='869b753e778c48499db962d926a99f6a',
         redirect_uri='https://github.com/TimatoPaste/Tim-and-Henry-Summer-2024',
         client_secret='289c9f563818444097d766d4572c5b4b',
